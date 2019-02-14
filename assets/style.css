@@ -104,10 +104,6 @@ p{
     opacity: 1;
 }
 
-.liam{
-    visibility: hidden;
-}
-
-.liam:hover{
-    visibility: visible;
+.navbar-light .navbar-brand{
+    color: white;
 }

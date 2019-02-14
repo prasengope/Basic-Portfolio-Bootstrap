@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../assets/images/tex2res3_@2X.png");
+}
+
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+label{
+    font-size: 18px;
+    color: #777777;
+    font-weight: 400;
+}
+
+p{
+    line-height: 2rem;
+}
+
+                                /* all classes */
+.container{
+    width: 960px;
+    background: #ffffff;
+}
+
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+    margin: 250px;
+}
+
+.navbar-brand{
+    background: #4aaaa5;
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.bio-img{
+    height: 280px;
+    width: 320px;
+}
+
+.nav-border{
+    line-height: 0.5px;
+}
+
+.card-footer{
+    border-bottom: 5px;
+}
+
+.card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.75em;
+    color: white;
+    background: #4aaaa5;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    font-size: 20px;
+}
+
+.card-title:hover{
+    text-decoration: none;
+}
+
+.btn-lg{
+    color: #ffffff;
+    background: #4aaaa5;
+}
+
+.page-footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background: #666666;
+    color: #fff;
+    border-top: 8px solid #4aaaa5;
+    padding: 20px;
+}
+
+.nav-link{
+    color: #666666;
+}
+
+.nav-link:hover{
+    color: #4aaaa5;
+    font-size: 2rem;
+}
+
+.card{
+    opacity: .75;
+}
+
+.card:hover{
+    opacity: 1;
+}
+
+.liam{
+    visibility: hidden;
+}
+
+.liam:hover{
+    visibility: visible;
+}
